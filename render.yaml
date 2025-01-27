@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: tryme
-    env: node
-    buildCommand: npm install
-    startCommand: node index.js
-    branch: main
-    plan: free 
